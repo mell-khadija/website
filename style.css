@@ -347,35 +347,6 @@ h4 .max_title{
 
 .button3 {border-radius: 8px;}
 
-/* .sec4{
-    background-position: center;
-    background-color: white;
-
-}
-
-.real-img {
-  display: grid;
-  padding: 20px;
-  margin: auto;
-  padding-bottom: 10em;
-  padding-top: 4em;
-  grid-template-columns: auto auto auto auto;
-  justify-content: space-around;
-  
-
-
-}
-.real{
-    text-align: center;
-    padding: 30px;
-    margin-left: 14px;
-    font-size: 20px ;
-    font-family: 'Raleway', sans-serif;
-}
-
-.real-img {
-    text-align: center;
-} */
 .sec4{
     background-position: center;
     background-color: white;
@@ -448,7 +419,14 @@ h4 .max_title{
       padding-top: 0em;
       margin-left: 1.6em;
   }
-   
+  .Equipes img:hover{
+    transform: scale(1.5);
+    z-index: 2;
+    box-shadow: 1px 2px 20px rgb(161, 153, 153);
+  }
+  .Equipes img:hover img{
+    opacity: 1;
+  }
   hr{
       margin-left: 20em;
       margin-right: 20em;
@@ -608,7 +586,7 @@ h4 .max_title{
 
 
   .sec8{
-      height: 85vh;
+      height: 90vh;
       /* background-color:#f2efea; */
   }
   .sec9{
